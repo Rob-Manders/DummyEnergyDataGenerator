@@ -7,14 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6138278-dd57-4cfc-b99c-7d73a81840cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DummyEnergyDataGenerator/CSVFile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DummyEnergyDataGenerator/Dates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DummyEnergyDataGenerator/Records.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DummyEnergyDataGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DummyEnergyDataGenerator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DummyEnergyDataGenerator/Addresses.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DummyEnergyDataGenerator/Addresses.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DummyEnergyDataGenerator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DummyEnergyDataGenerator/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="d6138278-dd57-4cfc-b99c-7d73a81840cb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739304406506</updated>
       <workItem from="1739304408139" duration="6567000" />
-      <workItem from="1739386826644" duration="3050000" />
+      <workItem from="1739386826644" duration="3384000" />
     </task>
     <servers />
   </component>
