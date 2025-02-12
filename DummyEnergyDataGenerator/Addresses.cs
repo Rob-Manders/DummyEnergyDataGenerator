@@ -1,36 +1,25 @@
 namespace DummyEnergyDataGenerator;
 
-public class Addresses
+public static class Addresses
 {
-    private readonly List<string> _addresses = new();
-    private readonly int _limit;
-
-    public Addresses(int limit = 1000)
-    {
-        _limit = limit;
-        
-        CreateAddressList();
-    }
-
-    public List<string> Get()
-    {
-        return _addresses;
-    }
-
-    private void CreateAddressList()
+    public static List<string> CreateList(int approxAmount = 0)
     {
         List<string> addressList = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "Data", "addresses.txt")).ToList();
+        int limit = approxAmount == 0 ? addressList.Count : approxAmount;
 
+        List<string> addresses = new();
         foreach (string address in addressList)
         {
             int numberOfHouses = new Random().Next(0, 20);
 
             for (int i = 1; i <= numberOfHouses; i++)
             {
-                _addresses.Add($"{i} {address}");
+                addresses.Add($"{i} {address}");
             }
             
-            if (_addresses.Count > _limit) break;
+            if (addresses.Count > limit) break;
         }
+        
+        return addresses;
     }
 }
